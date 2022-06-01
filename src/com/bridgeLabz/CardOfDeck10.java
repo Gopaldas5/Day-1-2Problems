@@ -36,7 +36,7 @@ public class CardOfDeck10 {
         for (int i = 0; i < 4; i++) {
             System.out.println("");
             System.out.println("Number of player " + (i + 1) + " and their 9 cards are:- ");
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < 9; j++) {
                 System.out.println(deck[i + j * 4] + " (Card " + (i + j * 4) + ")");
             }
         }
